@@ -123,39 +123,68 @@ a {
 }
 
 .product__box {
+	border: 2px solid green;
+    background: #C0F1E6;
+	margin-right: 36px;
+	margin-left: 6px;
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .product__box div:nth-of-type(1n+2) {
 	margin-left: 41px;
 }
 
-.product__item {
-	color: black;
-	font-size: 12px;
-	width: 230px;
-	height: 261px;
-	margin-left: 20px;
+.product-status {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.item-pic {
-	width: 187.86px;
-	height: 173.07px;
+.product {
+	width: 1030px;
+	height: 300px;
+}
+.product__item {
+	border: 2px double blue;
+    background: #fc3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: black;
+	font-size: 12px;
+}
+
+.item_pic {
+   	border: 2px solid red;
+    background: grey;
+	margin-bottom: 15px;
+}
+
+.product__link{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 .product-status__price {
+	display: flex;
 	font-weight: bold;
 	font-size: 14px;
-	width: 85.85px;
-	height: 24px;
+	width: 95.85px;
+	height: 33px;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .product-status__colours {
-	width: 40px;
+	display: flex;
+	width: 15px;
 	height: 9px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .product-status div:nth-of-type(1n+2) {
@@ -181,11 +210,49 @@ h2 {
 	font-weight: bold;
 	}
 
+.desc {
+	margin-right: 140px;
+	background: black;
+	color: white;
+	margin-block-start: -20px;
+	width: 1030px; 
+	height: 492px;
+	border: 3px solid pink;
+}
+
 .desc__img {
-	width: 628px;
-	height: 345px;
-	margin-right: 357px;
-	padding: 74px;
+	width: 642px;
+	height: 360px;
+	float: left;
+	margin-left: 31px;
+	margin-top: 65px;
+	border: 3px solid gold;
+}
+
+.desc__title {
+	border: 3px solid gold;
+	font-size: 22px;
+	margin-left: 715px;
+	margin-top: 152px;
+}
+
+.desc__text {
+	font-size: 14px;
+	margin-left: 716px;
+	margin-top: -20px;
+	border: 3px solid gold;
+}
+
+.desc__subtitle {
+	font-size: 12px;
+	color: white;
+	margin-left: 716px;
+	margin-top: 6px;
+	border: 3px solid gold;
+}
+
+.desc__img2 {
+	padding-left: 8px;
 }
 
 .product {
@@ -197,14 +264,9 @@ h2 {
 	position: center;
 }
 
-.desc {
-	margin-right: 140px;
-	background: black;
-	color: white;
-}
-
 .stories {
-	display: flex;
+	border: 3px solid red;
+	display: ;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
